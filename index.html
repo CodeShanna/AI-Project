@@ -6,6 +6,8 @@
     <title>AI Poem Project</title>
     <link rel="stylesheet" href="src/styles.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
 </head>
 <body>
     <div class="container">
@@ -15,7 +17,7 @@
     <main>
         <form id="poemForm">
             <input type="text" placeholder="What should your poem be about?" autofocus required autocomplete="off"
-                class="instructions">
+                class="instructions" id="poem-topic">
             <input type="submit" class="submit-button">
         </form>
         <div class="poem" id="poem">
