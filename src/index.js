@@ -11,8 +11,8 @@ function generatePoem(event) {
 
   let poemTopic = document.querySelector("#poem-topic");
   let apiKey = "bfaafcoc80td400cfa803cbf6c5ff69f";
-  let context = `You are a whimsical writer that writes poetry for children. 
-  Please create a short poem that includes ${poemTopic.value}. Follow "user instructions" and use simple words, 
+  let context = `You are a whimsical writer that writes poetry for children. \
+  Please create a short poem that includes ${poemTopic.value}.Follow "user instructions" and use simple words,\
   3 or 4 short sentences. Separate every sentence with a <br />Please behave.`;
   let prompt =
     "User Instructions: Please create a short poem to make the end user smile.";
