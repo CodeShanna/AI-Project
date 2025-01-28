@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Poem Project</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <div class="container">
@@ -12,16 +13,16 @@
         <h1>Generate A Poem Using 🤖 AI </h1>
     </header>
     <main>
-        <form>
+        <form id="poemForm">
             <input type="text" placeholder="What should your poem be about?" autofocus required autocomplete="off"
                 class="instructions">
             <input type="submit" class="submit-button">
         </form>
-        <div class="poem">The Poem will go here
+        <div class="poem" id="poem">
             <br>
-            second line
+            
             <br>
-            third line
+        
     </div>
     
     </main>
